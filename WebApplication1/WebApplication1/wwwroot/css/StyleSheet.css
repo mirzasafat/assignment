@@ -1,0 +1,89 @@
+﻿body {
+    background-color: floralwhite;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 50px;
+}
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+    }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+ul li a {
+    justify-content: space-between;
+}
+
+.Fdiv {
+    padding-left: 48%;
+    padding-top: 1px;
+    font-size: small;
+}
+
+#Wise {
+    padding-top: 1px;
+}
+
+    #wise :hover {
+        background-color: lightgrey;
+        padding: 2 5 5 5;
+    }
+
+#admsn {
+    background-color: brown;
+}
+
+.subclass1 {
+    color: blanchedalmond;
+}
+
+.About {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+
+    .About img {
+        height: auto;
+        width: 430px;
+        border-radius: 30px;
+    }
+
+.About-text {
+    width: 550px;
+}
+
+.Slider {
+    width: 250px;
+    padding-top: 80px;
+    padding-left: 8%;
+}
+
+.Slide-next h1 {
+    padding-left: 650px;
+}
+
+.News-and-Events .subclass1 {
+    display: inline-block;
+}
+
+.Mission {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+}
